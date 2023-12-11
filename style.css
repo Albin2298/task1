@@ -1,0 +1,67 @@
+.root{
+    background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url("./images/background.jpg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-logo{ 
+    width: 100px;
+}
+.button-sign-in{
+    background-color: red;
+    color: white;
+    padding-top: 9px;
+    padding-left: 12px;
+    padding-bottom: 9px;
+    padding-right: 12px;
+}
+.navbar{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    padding-top: 1%;
+    height: 10vh;
+}
+
+.main-container{
+width: 100%;
+    height: 90vh;
+}
+.main-titles-container{
+    text-align: center;
+color: white;
+}
+.main-title{
+    font-size: 3.2em;
+}
+.su-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+.main-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    padding: 15px;
+}
+
+.email-signup button{
+    background-color: red;
+    border: 0;
+    outline: 0;
+    color:white;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 15px;
+
+}
